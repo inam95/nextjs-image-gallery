@@ -36,7 +36,6 @@ export default function Gallery({ images }: { images: Image[] }) {
         {images.map(image => (
           <BlurImage key={image.id} image={image} />
         ))}
-        S
       </div>
     </div>
   );
