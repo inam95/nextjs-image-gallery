@@ -12,7 +12,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      images: data
+      images: data || []
     }
   };
 }
